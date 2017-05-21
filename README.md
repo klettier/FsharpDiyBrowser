@@ -29,7 +29,7 @@ I love this kind of technics, but in real production projects, we must do unit t
 ``` powershell
 
 cd src
-./build.cmd
+.\build.cmd
 
 ```
 
