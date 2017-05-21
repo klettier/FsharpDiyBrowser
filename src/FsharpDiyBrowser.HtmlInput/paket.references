@@ -1,3 +1,2 @@
 System.ValueTuple
-group Build
-FAKE
+FSharp.Data

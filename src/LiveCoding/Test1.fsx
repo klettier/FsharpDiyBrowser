@@ -2,6 +2,14 @@
 #load "../FsharpDiyBrowser.Winform/Renderer.fs"
 #load "../FsharpDiyBrowser.Winform/UiRunner.fs"
 
+(* 
+Step 1:
+Discover and extend the domain.
+
+Step 2:
+Implement new rendering features.
+*)
+
 open System
 open System.Windows.Forms
 open System.Drawing
@@ -31,9 +39,9 @@ let content = [
             ],
             [
                 BackgroundColor (HexaColor "#FF0000")
-                Width (Percent 40)
+                Width (Percent 50)
                 FontFamily "Comic Sans MS"
-                FontSize (Px 20)
+                FontSize (Px 15)
                 Margin(Top, (Px 15))
                 Margin(Left, (Px 10))
                 Y (Px 20)
@@ -43,7 +51,7 @@ let content = [
                     BackgroundColor (HexaColor "#0000CC")
                     Height (Px 10)
                     Width (Px 100)
-                    Margin(Top, (Px 20)) // TODO: fix the bug
+                    Margin(Top, (Px 20)) // TODO: fix the bug (blue box should be displayed 20px under red box)
                  ])
          // TODO: implement padding, floating rigth and left, lists (ul, li), images, hyperlinks
     ]

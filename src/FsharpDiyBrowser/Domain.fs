@@ -8,7 +8,7 @@ module Domain =
 
   type PhysicalSize = float32
   type SizeUnits =
-      | Px of int //int<px>
+      | Px of int
       | Cm of int
       | Inch of int
       | Percent of int
@@ -32,7 +32,7 @@ module Domain =
       | TextColor of Color
       | FontSize of SizeUnits
       | FontFamily of string
-      | FontWeight of FontStyle
+      | TextStyle of FontStyle
     
   type ImageSource =
       | ImageUrl of string
@@ -70,7 +70,7 @@ module Domain =
   let getFont defaultSize defaultFontFace defaultFontWeight (styles:Style list) =
       let size = styles |> findWithDefault (function | FontSize s -> Some s | _ -> None) defaultSize
       let face = styles |> findWithDefault (function | FontFamily face -> Some face | _ -> None) defaultFontFace
-      let weight = styles |> findWithDefault (function | FontWeight w -> Some w | _ -> None) defaultFontWeight
+      let weight = styles |> findWithDefault (function | TextStyle w -> Some w | _ -> None) defaultFontWeight
       size, face, weight
 
   type Page = 

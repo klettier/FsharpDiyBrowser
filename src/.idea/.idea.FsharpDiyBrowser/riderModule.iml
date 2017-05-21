@@ -5,10 +5,14 @@
       <sourceFolder url="file://$MODULE_DIR$/../../build.cmd" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../build.fsx" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../FsharpDiyBrowser" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../FsharpDiyBrowser.HtmlInput" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../FsharpDiyBrowser.Winform" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../LiveCoding/Test1.fsx" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../LiveCoding/Test2.fsx" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../paket.dependencies" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../paket.lock" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/../../FsharpDiyBrowser.HtmlInput/bin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../FsharpDiyBrowser.HtmlInput/obj" />
       <excludeFolder url="file://$MODULE_DIR$/../../FsharpDiyBrowser.Winform/bin" />
       <excludeFolder url="file://$MODULE_DIR$/../../FsharpDiyBrowser.Winform/obj" />
       <excludeFolder url="file://$MODULE_DIR$/../../FsharpDiyBrowser/bin" />
