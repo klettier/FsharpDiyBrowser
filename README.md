@@ -8,6 +8,7 @@ The goal of this fsharp kata is to build a small document renderer
 
 - FsharpDiyBrowser: contains the domain
 - FsharpDiyBrowser.Winform: transformation layer to render documents in a Winform canvas
+- FsharpDiyBrowser.HtmlInput: transsform HTML to domain models
 - LiveCoding folder: contains all live code scripts.
 
 ### What do I mean by live coding ?
@@ -33,7 +34,10 @@ cd src
 
 ```
 
-## Run the live coding tool
+## Try to complete Test1
+
+- Discover and extend the domain.
+- Implement new rendering features. (look at comments in the script)
 
 ``` powershell
 
@@ -41,4 +45,18 @@ cd src
 .\build.cmd LiveCode file="LiveCoding/Test1.fsx"
 
 ```
+
+## Try to complete Test2
+
+- render the body with correct children positions
+- parse percents, etc ...
+- try to implement images and hyper links
+
+``` powershell
+
+cd src
+.\build.cmd LiveCode file="LiveCoding/Test2.fsx"
+
+```
+![Livecode3](/docs/images/Livecode3.gif)
 
