@@ -15,6 +15,11 @@ The goal of this fsharp kata is to build a small document renderer
 This kata could be so long to do entierly.
 So we need a very fast feedback to check our drawings logic.
 
+Each time we change a file, then we have an immediate feedback.
+
+![Livecode2](/docs/images/Livecode2.gif)
+
+
 I love this kind of technics, but in real production projects, we must do unit tests!
 
 # Let's go !
