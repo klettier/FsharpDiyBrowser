@@ -4,7 +4,7 @@ The goal of this fsharp kata is to build a small document renderer
 
 ## Solution
 
-![solution](/docs/images/solution.png)
+![solution](/docs/images/solution2.png)
 
 - FsharpDiyBrowser: contains the domain
 - FsharpDiyBrowser.Winform: transformation layer to render documents in a Winform canvas
