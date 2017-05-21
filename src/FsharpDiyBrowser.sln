@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26507.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FsharpDiyBrowser", "FsharpDiyBrowser\FsharpDiyBrowser.fsproj", "{27F7E056-0337-4411-80C8-28C8B89A0DAB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LiveCoding", "LiveCoding", "{6EA43D85-6C92-4A80-A006-6333277A0ABF}"
+	ProjectSection(SolutionItems) = preProject
+		build.cmd = build.cmd
+		build.fsx = build.fsx
+		LiveCoding\Test1.fsx = LiveCoding\Test1.fsx
+	EndProjectSection
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FsharpDiyBrowser.Winform", "FsharpDiyBrowser.Winform\FsharpDiyBrowser.Winform.fsproj", "{7EA1B790-72E3-42F9-BE3D-7156E492AEDC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CDDFD022-E9A5-4A41-9D2E-93060F274693}"
+	ProjectSection(SolutionItems) = preProject
+		paket.dependencies = paket.dependencies
+		paket.lock = paket.lock
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{27F7E056-0337-4411-80C8-28C8B89A0DAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27F7E056-0337-4411-80C8-28C8B89A0DAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27F7E056-0337-4411-80C8-28C8B89A0DAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27F7E056-0337-4411-80C8-28C8B89A0DAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EA1B790-72E3-42F9-BE3D-7156E492AEDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EA1B790-72E3-42F9-BE3D-7156E492AEDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EA1B790-72E3-42F9-BE3D-7156E492AEDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EA1B790-72E3-42F9-BE3D-7156E492AEDC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
