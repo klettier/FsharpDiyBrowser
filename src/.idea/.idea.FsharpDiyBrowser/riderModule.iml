@@ -8,6 +8,7 @@
       <sourceFolder url="file://$MODULE_DIR$/../../FsharpDiyBrowser.Winform" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../LiveCoding/Test1.fsx" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../paket.dependencies" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../paket.lock" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/../../FsharpDiyBrowser.Winform/bin" />
       <excludeFolder url="file://$MODULE_DIR$/../../FsharpDiyBrowser.Winform/obj" />
       <excludeFolder url="file://$MODULE_DIR$/../../FsharpDiyBrowser/bin" />

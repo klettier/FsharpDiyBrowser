@@ -33,7 +33,7 @@ let content = [
                 BackgroundColor (HexaColor "#FF0000")
                 Width (Percent 40)
                 FontFamily "Comic Sans MS"
-                FontSize (Px 22)
+                FontSize (Px 20)
                 Margin(Top, (Px 15))
                 Margin(Left, (Px 10))
                 Y (Px 20)
@@ -43,6 +43,7 @@ let content = [
                     BackgroundColor (HexaColor "#0000CC")
                     Height (Px 10)
                     Width (Px 100)
+                    Margin(Top, (Px 20)) // TODO: fix the bug
                  ])
          // TODO: implement padding, floating rigth and left, lists (ul, li), images, hyperlinks
     ]
@@ -58,7 +59,7 @@ let page =
                BackgroundColor (HexaColor "#FFFFFF")
            ]
    }
-
+   
 let font = Renderer.Defaults.DefaultFont page
 page
 |> renderPageWith (
@@ -68,3 +69,4 @@ page
         render page.Content g parentRect font |> ignore
    )
    
+
