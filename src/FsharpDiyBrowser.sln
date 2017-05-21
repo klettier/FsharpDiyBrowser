@@ -8,6 +8,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LiveCoding", "LiveCoding", "{6EA43D85-6C92-4A80-A006-6333277A0ABF}"
 	ProjectSection(SolutionItems) = preProject
 		LiveCoding\Test1.fsx = LiveCoding\Test1.fsx
+		LiveCoding\Test2.fsx = LiveCoding\Test2.fsx
 	EndProjectSection
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FsharpDiyBrowser.Winform", "FsharpDiyBrowser.Winform\FsharpDiyBrowser.Winform.fsproj", "{7EA1B790-72E3-42F9-BE3D-7156E492AEDC}"
@@ -19,6 +20,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		paket.dependencies = paket.dependencies
 		paket.lock = paket.lock
 	EndProjectSection
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FsharpDiyBrowser.HtmlInput", "FsharpDiyBrowser.HtmlInput\FsharpDiyBrowser.HtmlInput.fsproj", "{0AB5991D-014E-4003-B912-163C9EABCEF6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -34,6 +37,10 @@ Global
 		{7EA1B790-72E3-42F9-BE3D-7156E492AEDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7EA1B790-72E3-42F9-BE3D-7156E492AEDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7EA1B790-72E3-42F9-BE3D-7156E492AEDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AB5991D-014E-4003-B912-163C9EABCEF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AB5991D-014E-4003-B912-163C9EABCEF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AB5991D-014E-4003-B912-163C9EABCEF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AB5991D-014E-4003-B912-163C9EABCEF6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
