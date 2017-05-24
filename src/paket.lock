@@ -2,104 +2,46 @@ NUGET
   remote: https://www.nuget.org/api/v2
     FSharp.Data (2.3.3)
       Zlib.Portable (>= 1.11) - framework: >= netstandard11, portable-net45+sl5+win8, portable-net45+win8, portable-net45+win8+wp8+wpa81
-    Microsoft.NETCore.Platforms (1.1) - framework: >= net46, dnxcore50, >= netstandard10, netstandard12, netstandard13
-    Microsoft.NETCore.Targets (1.1) - framework: >= net46, dnxcore50, >= netstandard10, netstandard12, netstandard13
-    runtime.any.System.Collections (4.3) - isRuntimeDependency: true
-      System.Runtime (>= 4.3) - framework: dnxcore50, >= netstandard13
-    runtime.any.System.Globalization (4.3) - isRuntimeDependency: true
-    runtime.any.System.IO (4.3) - isRuntimeDependency: true
-    runtime.any.System.Reflection (4.3) - isRuntimeDependency: true
-    runtime.any.System.Reflection.Primitives (4.3) - isRuntimeDependency: true
-    runtime.any.System.Resources.ResourceManager (4.3) - isRuntimeDependency: true
-    runtime.any.System.Runtime (4.3) - isRuntimeDependency: true
-      System.Private.Uri (>= 4.3) - framework: dnxcore50, >= netstandard15
-    runtime.any.System.Text.Encoding (4.3) - isRuntimeDependency: true
-    runtime.any.System.Threading.Tasks (4.3) - isRuntimeDependency: true
-    runtime.aot.System.Collections (4.3) - isRuntimeDependency: true
-      System.Diagnostics.Debug (>= 4.3) - framework: dnxcore50
-      System.Resources.ResourceManager (>= 4.3) - framework: dnxcore50
-      System.Runtime (>= 4.3) - framework: dnxcore50
-      System.Runtime.Extensions (>= 4.3) - framework: dnxcore50
-      System.Threading (>= 4.3) - framework: dnxcore50
-    runtime.aot.System.Globalization (4.3) - isRuntimeDependency: true
-    runtime.aot.System.IO (4.3) - isRuntimeDependency: true
-      System.Diagnostics.Debug (>= 4.3) - framework: >= net46, >= netstandard13
-      System.Globalization (>= 4.3) - framework: >= net46, dnxcore50, >= netstandard13
-      System.Runtime (>= 4.3) - framework: >= net46, dnxcore50, >= netstandard13
-      System.Runtime.Extensions (>= 4.3) - framework: >= net46, >= netstandard13
-      System.Text.Encoding (>= 4.3) - framework: >= net46, dnxcore50, >= netstandard13
-      System.Text.Encoding.Extensions (>= 4.3) - framework: >= net46, dnxcore50, >= netstandard13
-      System.Threading (>= 4.3) - framework: >= net46, dnxcore50, >= netstandard13
-      System.Threading.Tasks (>= 4.3) - framework: >= net46, dnxcore50, >= netstandard13
-    runtime.aot.System.Reflection (4.3) - isRuntimeDependency: true
-    runtime.aot.System.Reflection.Primitives (4.3) - isRuntimeDependency: true
-      System.Runtime (>= 4.3) - framework: dnxcore50
-      System.Threading (>= 4.3) - framework: dnxcore50
-    runtime.aot.System.Resources.ResourceManager (4.3) - isRuntimeDependency: true
-      System.Globalization (>= 4.3) - framework: dnxcore50
-      System.Reflection (>= 4.3) - framework: dnxcore50
-      System.Runtime (>= 4.3) - framework: dnxcore50
-    runtime.aot.System.Runtime (4.3) - isRuntimeDependency: true
-      System.Private.Uri (>= 4.3) - framework: dnxcore50
-    runtime.aot.System.Text.Encoding (4.3) - isRuntimeDependency: true
-    runtime.aot.System.Threading.Tasks (4.3) - isRuntimeDependency: true
+    Microsoft.NETCore.Platforms (1.1) - framework: >= netstandard10
+    Microsoft.NETCore.Targets (1.1) - framework: >= netstandard10
     System.Collections (4.3) - framework: >= netstandard10
       Microsoft.NETCore.Platforms (>= 1.1) - framework: dnxcore50, netstandard10, >= netstandard13
       Microsoft.NETCore.Targets (>= 1.1) - framework: dnxcore50, netstandard10, >= netstandard13
       System.Runtime (>= 4.3) - framework: dnxcore50, netstandard10, >= netstandard13
-    System.Diagnostics.Debug (4.3) - framework: >= net46, dnxcore50, >= netstandard13, isRuntimeDependency: true
+    System.Globalization (4.3) - framework: >= netstandard10
       Microsoft.NETCore.Platforms (>= 1.1) - framework: dnxcore50, netstandard10, >= netstandard13
       Microsoft.NETCore.Targets (>= 1.1) - framework: dnxcore50, netstandard10, >= netstandard13
       System.Runtime (>= 4.3) - framework: dnxcore50, netstandard10, >= netstandard13
-    System.Globalization (4.3) - framework: >= net46, dnxcore50, >= netstandard10
-      Microsoft.NETCore.Platforms (>= 1.1) - framework: dnxcore50, netstandard10, >= netstandard13
-      Microsoft.NETCore.Targets (>= 1.1) - framework: dnxcore50, netstandard10, >= netstandard13
-      System.Runtime (>= 4.3) - framework: dnxcore50, netstandard10, >= netstandard13
-    System.IO (4.3) - framework: dnxcore50, netstandard10, netstandard13, >= netstandard15
+    System.IO (4.3) - framework: netstandard10, netstandard13, >= netstandard15
       Microsoft.NETCore.Platforms (>= 1.1) - framework: dnxcore50, netstandard10, netstandard13, >= netstandard15
       Microsoft.NETCore.Targets (>= 1.1) - framework: dnxcore50, netstandard10, netstandard13, >= netstandard15
       System.Runtime (>= 4.3) - framework: dnxcore50, netstandard10, netstandard13, >= netstandard15
       System.Text.Encoding (>= 4.3) - framework: dnxcore50, netstandard10, netstandard13, >= netstandard15
       System.Threading.Tasks (>= 4.3) - framework: dnxcore50, netstandard10, netstandard13, >= netstandard15
-    System.Private.Uri (4.3) - framework: dnxcore50, >= netstandard15, isRuntimeDependency: true
-      Microsoft.NETCore.Platforms (>= 1.1)
-      Microsoft.NETCore.Targets (>= 1.1)
-    System.Reflection (4.3) - framework: dnxcore50, >= netstandard10
+    System.Reflection (4.3) - framework: >= netstandard10
       Microsoft.NETCore.Platforms (>= 1.1) - framework: dnxcore50, netstandard10, netstandard13, >= netstandard15
       Microsoft.NETCore.Targets (>= 1.1) - framework: dnxcore50, netstandard10, netstandard13, >= netstandard15
       System.IO (>= 4.3) - framework: dnxcore50, netstandard10, netstandard13, >= netstandard15
       System.Reflection.Primitives (>= 4.3) - framework: dnxcore50, netstandard10, netstandard13, >= netstandard15
       System.Runtime (>= 4.3) - framework: dnxcore50, netstandard10, netstandard13, >= netstandard15
-    System.Reflection.Primitives (4.3) - framework: dnxcore50, netstandard10, netstandard13, >= netstandard15
+    System.Reflection.Primitives (4.3) - framework: netstandard10, netstandard13, >= netstandard15
       Microsoft.NETCore.Platforms (>= 1.1) - framework: dnxcore50, >= netstandard10
       Microsoft.NETCore.Targets (>= 1.1) - framework: dnxcore50, >= netstandard10
       System.Runtime (>= 4.3) - framework: dnxcore50, >= netstandard10
-    System.Resources.ResourceManager (4.3) - framework: dnxcore50, >= netstandard10
+    System.Resources.ResourceManager (4.3) - framework: >= netstandard10
       Microsoft.NETCore.Platforms (>= 1.1) - framework: dnxcore50, >= netstandard10
       Microsoft.NETCore.Targets (>= 1.1) - framework: dnxcore50, >= netstandard10
       System.Globalization (>= 4.3) - framework: dnxcore50, >= netstandard10
       System.Reflection (>= 4.3) - framework: dnxcore50, >= netstandard10
       System.Runtime (>= 4.3) - framework: dnxcore50, >= netstandard10
-    System.Runtime (4.3) - framework: >= net46, dnxcore50, >= netstandard10, netstandard13
+    System.Runtime (4.3) - framework: >= netstandard10
       Microsoft.NETCore.Platforms (>= 1.1) - framework: dnxcore50, netstandard10, netstandard12, netstandard13, >= netstandard15
       Microsoft.NETCore.Targets (>= 1.1) - framework: dnxcore50, netstandard10, netstandard12, netstandard13, >= netstandard15
-    System.Runtime.Extensions (4.3) - framework: >= net46, dnxcore50, >= netstandard13, isRuntimeDependency: true
-      Microsoft.NETCore.Platforms (>= 1.1) - framework: dnxcore50, netstandard10, netstandard13, >= netstandard15
-      Microsoft.NETCore.Targets (>= 1.1) - framework: dnxcore50, netstandard10, netstandard13, >= netstandard15
-      System.Runtime (>= 4.3) - framework: dnxcore50, netstandard10, netstandard13, >= netstandard15
-    System.Text.Encoding (4.3) - framework: >= net46, dnxcore50, netstandard10, >= netstandard13
+    System.Text.Encoding (4.3) - framework: netstandard10, netstandard13, >= netstandard15
       Microsoft.NETCore.Platforms (>= 1.1) - framework: dnxcore50, netstandard10, >= netstandard13
       Microsoft.NETCore.Targets (>= 1.1) - framework: dnxcore50, netstandard10, >= netstandard13
       System.Runtime (>= 4.3) - framework: dnxcore50, netstandard10, >= netstandard13
-    System.Text.Encoding.Extensions (4.3) - framework: >= net46, dnxcore50, >= netstandard13, isRuntimeDependency: true
-      Microsoft.NETCore.Platforms (>= 1.1) - framework: dnxcore50, netstandard10, >= netstandard13
-      Microsoft.NETCore.Targets (>= 1.1) - framework: dnxcore50, netstandard10, >= netstandard13
-      System.Runtime (>= 4.3) - framework: dnxcore50, netstandard10, >= netstandard13
-      System.Text.Encoding (>= 4.3) - framework: dnxcore50, netstandard10, >= netstandard13
-    System.Threading (4.3) - framework: >= net46, dnxcore50, >= netstandard13, isRuntimeDependency: true
-      System.Runtime (>= 4.3) - framework: dnxcore50, netstandard10, >= netstandard13
-      System.Threading.Tasks (>= 4.3) - framework: dnxcore50, netstandard10, >= netstandard13
-    System.Threading.Tasks (4.3) - framework: >= net46, dnxcore50, netstandard10, >= netstandard13
+    System.Threading.Tasks (4.3) - framework: netstandard10, netstandard13, >= netstandard15
       Microsoft.NETCore.Platforms (>= 1.1) - framework: dnxcore50, netstandard10, >= netstandard13
       Microsoft.NETCore.Targets (>= 1.1) - framework: dnxcore50, netstandard10, >= netstandard13
       System.Runtime (>= 4.3) - framework: dnxcore50, netstandard10, >= netstandard13
