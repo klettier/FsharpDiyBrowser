@@ -45,7 +45,7 @@ Target "Clean" (fun _ ->
 )
 
 Target "Build" (fun _ ->
-  !! "FsharpDiyBrowser.sln"
+  !! "src/FsharpDiyBrowser.sln"
   |> MSBuildRelease "" "Rebuild"
   |> ignore
 )
