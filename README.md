@@ -42,7 +42,7 @@ cd src
 ``` powershell
 
 cd src
-.\build.cmd LiveCode file="LiveCoding/Test1.fsx"
+.\build.cmd LiveCode file="src/LiveCoding/Test1.fsx"
 
 ```
 
@@ -55,7 +55,7 @@ cd src
 ``` powershell
 
 cd src
-.\build.cmd LiveCode file="LiveCoding/Test2.fsx"
+.\build.cmd LiveCode file="src/LiveCoding/Test2.fsx"
 
 ```
 ![Livecode3](/docs/images/Livecode3.gif)
